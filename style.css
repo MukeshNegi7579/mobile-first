@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+section {
+  background-image: url(img/Untitled-1.jpg);
+  min-height: 200px;
+}
+.content-box {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  text-align: center;
+}
+/*left-section*/
+.left-content {
+  color: rgb(255, 255, 255);
+  padding-top: 20px;
+}
+
+.left-content h3 {
+  font-size: 1.25rem;
+}
+.left-content p {
+  color: rgb(72, 183, 91);
+  font-size: 1em;
+  margin-top: 20px;
+}
+.what-we-do {
+  padding: 20px 0px;
+}
+.seo-optimisation > h5,
+.content-marketing > h5,
+.digital-marketing > h5 {
+  margin: 15px 0px;
+}
+
+/*right-section*/
+.inside-right-content {
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+}
+.inside-right-content h5 {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.inside-right-content p {
+  font-size: 1em;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  padding: 20px;
+}
+.keyword,
+.check-btn,
+.email,
+.link {
+  margin-top: 20px;
+  border-radius: 5px;
+}
+form input,
+form button {
+  padding: 5px 10px;
+  font-size: 1.3rem;
+}
+.check-btn {
+  background-color: rgb(72, 183, 91);
+  font-weight: 600;
+}
+
+@media screen and (min-width: 1024px) {
+  .content-box {
+    flex-direction: row;
+  }
+  .left-content h3 {
+    font-size: 1.9rem;
+  }
+  .left-content p {
+    font-size: 1.2em;
+  }
+  .what-we-do {
+    display: flex;
+    justify-content: space-around;
+  }
+  .inside-right-content h5 {
+    font-size: 1.5rem;
+  }
+  .inside-right-content p {
+    font-size: 1.2em;
+  }
+}
